@@ -5,11 +5,12 @@ const AddToCart = () => {
   return (
     <div>
       <button
+        className="btn btn-primary"
         onClick={() => {
           console.log("Click");
         }}
       >
-        Add to Cart
+        ADD TO CART
       </button>
     </div>
   );
